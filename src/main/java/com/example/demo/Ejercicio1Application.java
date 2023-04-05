@@ -19,8 +19,8 @@ public class Ejercicio1Application implements CommandLineRunner {
 		Persona persona1 = new Persona();
 		persona1.setNombre("juan");
 		persona1.setEdad(27);
-		System.out.println("El nombre de la persona es:" + persona1.getNombre());
-		System.out.println("La edad de " + persona1.getNombre() + " es:" + persona1.getEdad());
+//		System.out.println("El nombre de la persona es:" + persona1.getNombre());
+//		System.out.println("La edad de " + persona1.getNombre() + " es:" + persona1.getEdad());
 		System.out.println(persona1);
 	}
 }
